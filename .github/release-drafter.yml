@@ -1,6 +1,7 @@
 # https://github.com/release-drafter/release-drafter
 name-template: 'v$NEXT_MINOR_VERSION'
 tag-template: 'v$NEXT_MINOR_VERSION'
+sort-direction: descending
 categories:
   - title: '🚀 Features'
     labels:
