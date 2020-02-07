@@ -4,6 +4,8 @@
 
 A repo for trying out github actions
 
+test
+
 ## Setup
 
 This section outlines how to setup portions of the repo that cannot be reasonably automated.
