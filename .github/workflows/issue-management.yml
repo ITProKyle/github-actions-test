@@ -37,6 +37,13 @@ jobs:
         uses: Naturalclar/issue-action@v1.0.0
         with:
           keywords: '["feature"]'  # space should match any issue with two words or more
-          labels: '["feature"]'
+          labels: '["feature", "request"]'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: identify question
+        # https://github.com/Naturalclar/issue-action
+        uses: Naturalclar/issue-action@v1.0.0
+        with:
+          keywords: '["question"]'  # space should match any issue with two words or more
+          labels: '["question"]'
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
