@@ -1,21 +1,27 @@
----
-name: Pull Request Template
-about: Template for most pull requests.
-title: '<short discription>'
-labels: ''
-assignees: ''
+<!-- The title of the pull request should be a short description of what was done. -->
+<!-- You can remove any parts of this template not applicable to your Pull Request. -->
+## Summary
 
----
+<!-- A short summary describing what was done. -->
 
-<!-- description/summary/introduction -->
+## Why This Is Needed
 
-### Why this is needed
+<!-- Explain why this change is needed. Can be omitted if covered in the summary -->
 
-<!-- Explain why this change is needed. -->
+## What Changed
 
-### Checklist
+<!-- A detailed list of all the changes made, broken down by category -->
 
-<!-- You can erase any parts of this template not applicable to your Pull Request. -->
+### Added
+
+### Changed
+
+### Fixed
+
+### Removed
+
+## Checklist
+
 - [ ] Have you followed the guidelines in our Contributing document?
 - [ ] Have you checked to ensure there aren't other open [Pull Requests](../../../pulls) for the same update/change?
 - [ ] Does your submission pass tests?
@@ -25,6 +31,6 @@ assignees: ''
 - [ ] Have you successfully ran tests with your changes locally?
 - [ ] Have you updated documentation, as applicable?
 
-### Screenshots
+## Screenshots
 
 <!-- Please include screenshots of any new features to show how it works. -->
