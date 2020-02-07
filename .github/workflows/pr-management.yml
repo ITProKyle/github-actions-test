@@ -9,7 +9,7 @@ on:
 jobs:
   ready-for-review:
     name: PR Ready For Review
-    if: github.event.action == 'ready_for_review'
+    if: github.event.action == 'ready_for_review' || (github.event.action == 'opened' && github.event.pull_request.draft == false)
     runs-on: ubuntu-latest
     steps:
       - name: add reviewers & assign author
