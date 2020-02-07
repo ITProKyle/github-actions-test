@@ -1,6 +1,11 @@
 name: Branch Name
-# This workflow is triggered on pushes to the repository.
-on: [push, pull_request]
+on:
+  pull_request:
+  push:
+    branches-ignore:
+      - master
+    tags-ignore:
+      - v[0-9].[0-9].[0-9]
 
 jobs:
   branch-name:
@@ -12,7 +17,7 @@ jobs:
           # Regex the branch should match. This example enforces grouping
           regex: '([a-z])+\/([a-z])+'
           # All branches should start with the given prefix
-          allowed_prefixes: 'bugfix,enhancement,feature,fix,hotfix,maint,maintain,maintenance'
+          allowed_prefixes: 'bugfix,enhancement,feature,fix,hotfix,maint,maintain,maintenance,release'
           # Ignore exactly matching branch names from convention
           ignore: master,develop,v0_47_fixes
           # Min length of the branch name
