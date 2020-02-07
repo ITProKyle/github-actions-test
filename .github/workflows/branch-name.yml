@@ -7,7 +7,7 @@ jobs:
     name: Enforce Branch Name
     runs-on: 'ubuntu-latest'
     steps:
-      - uses: deepakputhraya/action-branch-name@1.0.0
+      - uses: deepakputhraya/action-branch-name@v1.0.0
         with:
           # Regex the branch should match. This example enforces grouping
           regex: '([a-z])+\/([a-z])+'
