@@ -11,7 +11,7 @@
   },
   {
     "name": "invalid",
-    "color": "#e4e669",
+    "color": "#000000",
     "description": "issue or pull request is no longer relevant"
   },
   {
@@ -118,5 +118,15 @@
     "name": "wontfix",
     "color": "#ffffff",
     "description": "work won't continue on an issue or pull request"
+  },
+  {
+    "name": "release",
+    "color": "#e4e669",
+    "description": "a release task or pull request"
+  },
+  {
+    "name": "skip-changelog",
+    "color": "#ffffff",
+    "description": "don't include this pull request in the release changelog"
   }
 ]
