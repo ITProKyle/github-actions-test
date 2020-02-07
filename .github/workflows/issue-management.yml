@@ -29,21 +29,21 @@ jobs:
         # https://github.com/Naturalclar/issue-action
         uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["bug"]'  # space should match any issue with two words or more
+          keywords: '["bug"]'
           labels: '["bug"]'
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: identify feature
         # https://github.com/Naturalclar/issue-action
         uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["feature"]'  # space should match any issue with two words or more
-          labels: '["feature", "request"]'
+          keywords: '["feature", "request"]'
+          labels: '["feature"]'
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: identify question
         # https://github.com/Naturalclar/issue-action
         uses: Naturalclar/issue-action@v1.0.0
         with:
-          keywords: '["question"]'  # space should match any issue with two words or more
+          keywords: '["question"]'
           labels: '["question"]'
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
